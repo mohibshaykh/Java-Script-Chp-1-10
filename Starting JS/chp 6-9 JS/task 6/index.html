@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Expressions</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chapter 06 (Math Expressions)</h1>
+    <h2>Task 6</h2>
+    <form id="marksForm">
+      <label for="subject1">Subject 1:</label>
+      <input type="text" id="subject1" name="subject1" /><br /><br />
+
+      <label for="marks1">Marks obtained in Subject 1:</label>
+      <input type="number" id="marks1" name="marks1" /><br /><br />
+
+      <label for="subject2">Subject 2:</label>
+      <input type="text" id="subject2" name="subject2" /><br /><br />
+
+      <label for="marks2">Marks obtained in Subject 2:</label>
+      <input type="number" id="marks2" name="marks2" /><br /><br />
+
+      <label for="subject3">Subject 3:</label>
+      <input type="text" id="subject3" name="subject3" /><br /><br />
+
+      <label for="marks3">Marks obtained in Subject 3:</label>
+      <input type="number" id="marks3" name="marks3" /><br /><br />
+
+      <input type="button" value="Calculate" onclick="calculateMarks()" />
+    </form>
+    <h3>Result</h3>
+    <div id="result"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
